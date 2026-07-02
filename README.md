@@ -1,5 +1,7 @@
 ## Repositório destinado a registrar estudo de Dart
 
+### Dart é fortemente tipado!
+
 ### Com dart create -t console-full temos:
 - pubspec.yaml, pubspec.lock package_config.json, package.graph.json são arquivos que fazem referências a Packages.
 - analys_options.yaml faz referência aos linting (regras que são observadas quando escrevemos o código).
