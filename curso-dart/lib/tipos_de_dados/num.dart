@@ -25,7 +25,16 @@ void returnText() {
   // % é módulo, retorna o resto, agora ~/ retorna a parte inteira da divisão
   int dezessete = 17;
 
-  print(dezessete / cinco);
-  print(dezessete % cinco);
-  print(dezessete ~/ cinco);
+  print(dezessete / cinco); // divisão comum
+  print(dezessete % cinco); // resto da divisão
+  print(dezessete ~/ cinco); // parte inteira da divisão
+
+  int incremento = 3;
+
+  print(incremento++); // primeiro lê, na linha de baixo incrementa, então essa linha ainda imprime 3
+  print(incremento); // aqui já incrementou
+
+
+  int incremento2 = 3;
+  print(++incremento2); // já incrementa na mesma linha
 }
