@@ -6,6 +6,7 @@ import 'package:curso_dart/dados_built_in.dart' as dados_built_in;
 import 'package:curso_dart/tipos_de_dados/num.dart' as num;
 import 'package:curso_dart/tipos_de_dados/string.dart' as string;
 import 'package:curso_dart/tipos_de_dados/boolean.dart' as boolean;
+import 'package:curso_dart/tipos_de_dados/list.dart' as list;
 
 
 void main(List<String> arguments) {
@@ -18,4 +19,5 @@ void main(List<String> arguments) {
   num.returnText();
   string.returnText();
   boolean.returnText();
+  list.returnText();
 }
