@@ -36,4 +36,15 @@ void returnText(){
   print("Lista que usarei para receber o spread $recebeSpread");
   recebeSpread = [...recebeSpread, ...spread];
   print("Resultado do spread operator $recebeSpread");
+
+  // Dois pontos concatena métodos
+  List<int> doisPontos = [2,3,4]
+  ..add(2)
+  ..addAll([3,5]);
+
+  print(doisPontos);
+
+  List<int>? qualquer;
+
+  qualquer = doisPontos..add(2);
 }
