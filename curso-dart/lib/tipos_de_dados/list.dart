@@ -28,4 +28,12 @@ void returnText(){
   list_1.addAll(exAddAll); 
   /* addAll recebe um iterable, ou seja, uma lista, e adiciona nao uma uma lista em si dentro de outra mas cada elemento isoladamente */
   print(list_1);
+
+  // spread operator
+  List<int> spread = [12,4,65];
+  print("Lista que usarei para fazer o spread $spread");
+  List<int> recebeSpread = [1,1,1];
+  print("Lista que usarei para receber o spread $recebeSpread");
+  recebeSpread = [...recebeSpread, ...spread];
+  print("Resultado do spread operator $recebeSpread");
 }
