@@ -8,8 +8,11 @@ import 'package:curso_dart/tipos_de_dados/string.dart' as string;
 import 'package:curso_dart/tipos_de_dados/boolean.dart' as boolean;
 import 'package:curso_dart/tipos_de_dados/list.dart' as list;
 import 'package:curso_dart/tipos_de_dados/set_type.dart' as set_type;
+
 import 'package:curso_dart/desafio_etiquetar.dart' as desafio_1;
 import 'package:curso_dart/desafio_horario.dart' as desafio_2;
+
+
 
 
 void main(List<String> arguments) {
@@ -23,7 +26,6 @@ void main(List<String> arguments) {
   string.returnText();
   boolean.returnText();
   list.returnText();
-  set_type.returnText();
 
   List<int?>? entradaZeroDesafio;
   List<int?> entradaUmDesafio = [3, null, 8];
@@ -41,4 +43,5 @@ void main(List<String> arguments) {
   print(desafio_2.horario(3671));
   print(desafio_2.horario(59));
   print(desafio_2.horario(86399));
+  set_type.returnText();
 }
