@@ -39,3 +39,14 @@ Conceito bônus visto no desafio:
 
 ### Lições de método
 - Sempre testar operadores aritméticos com NEGATIVOS antes de assumir comportamento — foi a fonte de quase todos os erros da rodada
+
+## Sets — 2026-07-12 — 6/6
+
+### A confirmar (acertados 1x)
+- Literal `{1,2,2}` compila (warning), duplicatas removidas em runtime
+- `{}` sozinho é `Map<dynamic, dynamic>`; set vazio exige `<int>{}` ou tipo declarado
+- `set[0]` é erro de compilação (Set não tem `operator []`)
+- Collection if/for e spread funcionam em set literal
+- `union`/`intersection`/`difference` retornam set NOVO, não mutam o original
+- `remove`/`removeAll` de valor inexistente é no-op silencioso; `removeWhere` com predicado
+- Set literal é LinkedHashSet: mantém ordem de inserção (≠ Python set)

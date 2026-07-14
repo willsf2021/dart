@@ -11,6 +11,7 @@ import 'package:curso_dart/tipos_de_dados/set_type.dart' as set_type;
 
 import 'package:curso_dart/desafio_etiquetar.dart' as desafio_1;
 import 'package:curso_dart/desafio_horario.dart' as desafio_2;
+import 'package:curso_dart/desafio_emails.dart' as desafio_3;
 
 
 
@@ -44,4 +45,7 @@ void main(List<String> arguments) {
   print(desafio_2.horario(59));
   print(desafio_2.horario(86399));
   set_type.returnText();
+
+  var emails = ["a@x.com", "b@x.com", "A@x.com", "c@x.com", "b@x.com"];
+  print(desafio_3.emailsDuplicados(emails));
 }
